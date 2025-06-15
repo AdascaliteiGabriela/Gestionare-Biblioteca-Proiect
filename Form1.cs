@@ -376,13 +376,14 @@ namespace ProiectPAW
 
         private void AfisCit_Click(object sender, EventArgs e)
         {
-            if (!File.Exists("Cititori.txt"))
+            string pathCititori = Path.Combine(Application.StartupPath, "Resurse", "Cititori.txt");
+            if (!File.Exists(pathCititori))
             {
-                MessageBox.Show("Fisierul nu a fost găsit.");
+                MessageBox.Show(pathCititori);
                 return;
             }
 
-            string[] linii = File.ReadAllLines("Cititori.txt");
+            string[] linii = File.ReadAllLines(pathCititori);
             foreach (string linie in linii)
             {
                 var valori = linie.Split(',');
@@ -405,14 +406,15 @@ namespace ProiectPAW
 
         private void AfisCarti_Click(object sender, EventArgs e)
         {
-            if (!File.Exists("carti.txt"))
+            string pathCarti = Path.Combine(Application.StartupPath, "Resurse", "Carti.txt");
+            if (!File.Exists(pathCarti))
             {
                 MessageBox.Show("Fisierul nu a fost gasit.");
                 return;
             }
 
             
-            string[] linii = File.ReadAllLines("carti.txt");
+            string[] linii = File.ReadAllLines(pathCarti);
 
             foreach (string linie in linii)
             {

@@ -1,0 +1,15 @@
+1,Inchisoarea ingerilor,Stephen King,Nemira,1982,C101
+2,Cum eram candva,Jhumpa Lahiri,Humanitas,2008,D101
+3,Aventurile lui Tom Sawyer,Mark Twain,Curtea Veche,1876,F103
+4,The Illustrated Man,Ray Bradbury,Doubleday,1951,G103
+5,The Book of Beginnings,John Stephens,Knopf,2012,H102
+6,Hamlet,William Shakespeare,Necunoscut,1601,M104
+7,Don Quijote,Miguel de Cervantes,Polirom,1605,L101
+8,Les Miserables,Victor Hugo,Necunoscut,1862,D106
+9,Umanii,Matt Haig,Nemira,2014,F109
+10,Finding Audrey,Sophie Kinsella,Penguin,2015,F110
+11,Divergent,Veronica Roth,Collins,2011,A102
+12,All the Bright Places,Jennifer Niven,Ember,2015,C102
+13,Iona,Marin Sorescu,Necunoscut,1968,F103
+14,Misterele,Ion Popescu,ABC,2023,M104
+15,Aventurile Noastre,Maria Ionescu,Corint,2022,D105
