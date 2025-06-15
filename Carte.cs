@@ -8,7 +8,7 @@ namespace ProiectPAW
 {
     public class Carte
     {
-        private static int primulId = 0;
+        private static int nrCit = 0;
         public int IdCarte { get; set; }
         public string Titlu { get; set; }
         public string Autor { get; set; }
@@ -20,7 +20,7 @@ namespace ProiectPAW
 
         public Carte(string titlu, string autor, string editura, int anAparitie, string cota)
         {
-            IdCarte = ++primulId;
+            IdCarte = ++nrCit;
             Titlu = titlu;
             Autor = autor;
             Editura = editura;
